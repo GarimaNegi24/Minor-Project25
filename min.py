@@ -1,13 +1,8 @@
 import cv2
-import dlib
-import imutils
-from scipy.spatial import distance
-from imutils import face_utils
 import pygame   # for alarm sound
 import time
 import mediapipe as mp
 from scipy.spatial import distance as dist
-import pygame
 
 # ------------- CONFIGURATIONS -------------
 EAR_THRESH = 0.23          # Eye closed threshold (tune for your face)
